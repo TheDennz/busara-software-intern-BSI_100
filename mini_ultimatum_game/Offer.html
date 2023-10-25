@@ -1,0 +1,22 @@
+{{ block content }}
+
+<div class="container">
+	<div class="card">
+    <div class="card-body">
+			<div class="alert alert-success">
+		  	<p>You have received an endowment of  <strong>{{endowment}}</strong> and are tasked with sending any amount between 0 and 200 to Player 2</p>
+			</div>
+		  <p class="mt-4">
+		     
+		  </p>
+		  <div class="d-flex justify-content-center align-items-center">
+    	{{ formfields }}
+    </div>
+		</div>
+	</div>
+	<div class="text-center mt-3">
+    {{ next_button }}
+  </div>
+</div>
+    
+{{ endblock }}
